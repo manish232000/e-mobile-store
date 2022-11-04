@@ -3,3 +3,10 @@
     justify-content: center;
     align-items: center;
 }
+.text-center{
+    text-align: center;
+    
+}
+.my-2{
+    margin: 10px 28px;
+}

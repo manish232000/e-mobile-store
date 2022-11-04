@@ -4,7 +4,7 @@
 }
 header{display: flex;}
 header{background-color: rgb(8, 30, 30);}
-nav ul{height:58pxvh;
+nav ul{
     display: flex;
 justify-content:flex-start;
 align-items:center;
@@ -41,11 +41,21 @@ cursor: pointer;}
     min-height: calc(100vh - 58px - 12vh);
 }
 .slider{
-    display: flex;
+    display:flex;
 justify-content: center;
 align-items: center;}
 .slider img{width: 50vw;
 margin: 15px 0;}
+.cards{
+    max-width: 91vw;
+    margin: auto;
+}
+.carditem{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
 footer{
     height: 12vh;
     background-color: black;color: antiquewhite;
